@@ -1,5 +1,6 @@
 # OneNote MCP Server
 [![smithery badge](https://smithery.ai/badge/@modelcontextprotocol/server-onenote)](https://smithery.ai/server/@modelcontextprotocol/server-onenote)
+[![npm version](https://img.shields.io/npm/v/mcp-server-onenote.svg)](https://www.npmjs.com/package/mcp-server-onenote)
 
 A Model Context Protocol (MCP) server implementation for Microsoft OneNote, enabling AI language models to interact with OneNote through a standardized interface.
 
@@ -27,6 +28,12 @@ A Model Context Protocol (MCP) server implementation for Microsoft OneNote, enab
 
 ## Installation
 
+### Installing from npm (Recommended)
+```bash
+npm install -g mcp-server-onenote
+```
+The package is now available on the npm registry as of April 27, 2025.
+
 ### Installing via Smithery
 
 To install OneNote Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@modelcontextprotocol/server-onenote):
@@ -35,9 +42,9 @@ To install OneNote Server for Claude Desktop automatically via [Smithery](https:
 npx -y @smithery/cli install @modelcontextprotocol/server-onenote --client claude
 ```
 
-### Manual Installation
+### Installing from GitHub
 ```bash
-npm install -g mcp-server-onenote
+npm install -g github:ZubeidHendricks/azure-onenote-mcp-server
 ```
 
 ## Configuration
@@ -100,3 +107,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for information about contributing to thi
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+## Changelog
+
+### 0.1.0 (2025-04-27)
+- Initial release
+- Core functionality for OneNote notebook, section, and page management
+- Published to npm registry
