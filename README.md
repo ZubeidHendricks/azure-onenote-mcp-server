@@ -34,6 +34,17 @@ npm install -g mcp-server-onenote
 ```
 The package is now available on the npm registry as of April 27, 2025.
 
+### Running the Package
+After installation, you can run the package using:
+```bash
+mcp-server-onenote
+```
+
+Or with npx:
+```bash
+npx mcp-server-onenote
+```
+
 ### Installing via Smithery
 
 To install OneNote Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@modelcontextprotocol/server-onenote):
@@ -62,8 +73,7 @@ Add this to your MCP client configuration (e.g. Claude Desktop):
 {
   "mcpServers": {
     "onenote": {
-      "command": "npx",
-      "args": ["-y", "mcp-server-onenote"],
+      "command": "mcp-server-onenote",
       "env": {
         "AZURE_TENANT_ID": "<YOUR_TENANT_ID>",
         "AZURE_CLIENT_ID": "<YOUR_CLIENT_ID>",
@@ -98,6 +108,9 @@ npm run build
 
 # Lint
 npm run lint
+
+# Run locally
+npm start
 ```
 
 ## Contributing
@@ -114,3 +127,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Initial release
 - Core functionality for OneNote notebook, section, and page management
 - Published to npm registry
+
+### 0.1.1 (2025-04-27)
+- Added executable bin to package.json
+- Fixed issue where npx command couldn't determine executable to run
+- Updated README with clear running instructions

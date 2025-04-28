@@ -1,20 +1,24 @@
 {
   "name": "mcp-server-onenote",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "OneNote MCP Server Implementation",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "bin": {
+    "mcp-server-onenote": "./dist/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
+    "start": "node dist/index.js",
     "test": "jest --coverage",
     "lint": "eslint . --ext .ts",
     "format": "prettier --write \"src/**/*.ts\""
   },
   "dependencies": {
-    "@modelcontextprotocol/typescript-sdk": "^0.1.0",
+    "@azure/identity": "^4.9.1",
     "@microsoft/microsoft-graph-client": "^3.0.0",
-    "@azure/identity": "^2.0.0"
+    "@modelcontextprotocol/sdk": "^1.10.2"
   },
   "devDependencies": {
     "@types/jest": "^29.5.0",
