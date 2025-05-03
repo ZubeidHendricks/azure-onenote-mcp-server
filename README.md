@@ -1,4 +1,3 @@
-[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/zubeidhendricks-azure-onenote-mcp-server-badge.png)](https://mseep.ai/app/zubeidhendricks-azure-onenote-mcp-server)
 
 # OneNote MCP Server
 [![smithery badge](https://smithery.ai/badge/@modelcontextprotocol/server-onenote)](https://smithery.ai/server/@modelcontextprotocol/server-onenote)
@@ -115,6 +114,9 @@ npm run lint
 # Run locally
 npm start
 ```
+
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/zubeidhendricks-azure-onenote-mcp-server-badge.png)](https://mseep.ai/app/zubeidhendricks-azure-onenote-mcp-server)
+
 
 ## Contributing
 
