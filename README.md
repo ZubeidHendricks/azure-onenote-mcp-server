@@ -1,6 +1,7 @@
 # OneNote MCP Server
 [![smithery badge](https://smithery.ai/badge/@modelcontextprotocol/server-onenote)](https://smithery.ai/server/@modelcontextprotocol/server-onenote)
 [![npm version](https://img.shields.io/npm/v/mcp-server-onenote.svg)](https://www.npmjs.com/package/mcp-server-onenote)
+[![Verified on MseeP](https://mseep.ai/badge.svg)](https://mseep.ai/app/94d05742-a658-483b-b3e3-f8a3e5ec6e23)
 
 A Model Context Protocol (MCP) server implementation for Microsoft OneNote, enabling AI language models to interact with OneNote through a standardized interface.
 
