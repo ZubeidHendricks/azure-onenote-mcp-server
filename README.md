@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/zubeidhendricks-azure-onenote-mcp-server-badge.png)](https://mseep.ai/app/zubeidhendricks-azure-onenote-mcp-server)
+
 # OneNote MCP Server
 [![smithery badge](https://smithery.ai/badge/@modelcontextprotocol/server-onenote)](https://smithery.ai/server/@modelcontextprotocol/server-onenote)
 [![npm version](https://img.shields.io/npm/v/mcp-server-onenote.svg)](https://www.npmjs.com/package/mcp-server-onenote)
